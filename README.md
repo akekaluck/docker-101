@@ -12,15 +12,12 @@ CMD ["executable","param1", "param2"]
 RUN ["cd","/user"]
 
 ## CMD vs ENDPOINT vs RUN
-RUN = Run when create a image
+- RUN = Run when create a image
+### Default executeable (Execute when no command)
+- CMD = If run docker command with options, it will be ignored.
+- ENDPOINT = Always run.
 
-CMD,ENDPOINT = Default executeable (Execute when no command)
-
-CMD = Run docker command has options, it will be ignored.
-
-ENDPOINT = Always run.
-
-WORKDIR: 
+# WORKDIR: 
 
 # docker-compose
 docker-compose -f [File name] up 
