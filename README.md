@@ -1,4 +1,4 @@
-# docker-101
+# Docker-101
 
 # Dockerfile
 ## Shell form
@@ -10,14 +10,13 @@
 - RUN ["cd","/user"]
 
 ## CMD vs ENDPOINT vs RUN
-- RUN = Run when create a image
+- RUN = Execute when create a image
 ### Default executeable (Execute when no command)
 - CMD = If run docker command with options, it will be ignored.
 - ENDPOINT = Always run.
+## WORKDIR: 
 
-# WORKDIR: 
-
-# docker-compose
+# Docker-Compose
 ## docker-compose -f [File name] up 
 - docker-compose.yml (Default)
 - docker-compose.override.yml (Overrided if no options)
