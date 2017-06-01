@@ -14,7 +14,7 @@
 ### Default executeable (Execute when no command)
 - CMD = If run docker command with options, it will be ignored.
 - ENDPOINT = Always run.
-## WORKDIR: 
+## WORKDIR = Specific path for working folder
 
 # Docker-Compose
 ## docker-compose -f [File name] up 
