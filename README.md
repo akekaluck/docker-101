@@ -19,8 +19,8 @@
 
 # docker-compose
 ## docker-compose -f [File name] up 
-- docker-compose.yml (Default
-- docker-compose.override.yml
+- docker-compose.yml (Default)
+- docker-compose.override.yml (Overrided if no options)
 
 # docker with artifactory
 - docker login [artifact url]
