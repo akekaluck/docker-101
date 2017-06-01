@@ -29,4 +29,8 @@ Specific path for working folder
 # docker-compose
 - extra_hosts: set host file in container
 
-
+# Docker swarm mode
+- docker swarm init
+- docker service ls
+- docker node ls
+- docker service create --replicas 2 --name [app_name] -p 8080:8080 [images url]
